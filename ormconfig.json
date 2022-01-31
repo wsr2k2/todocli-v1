@@ -1,0 +1,10 @@
+{
+    "type": "mongodb",
+    "url": "mongodb://localhost:27017/?readPreference=primary&ssl=false",
+    "useUnifiedTopology": true,
+    "synchronize": true,
+    "entities": [
+      "src/db/entities/*.ts"
+    ]
+  }
+  
